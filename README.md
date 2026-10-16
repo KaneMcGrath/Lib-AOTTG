@@ -42,3 +42,8 @@ so it can be distributed independently.
 Extracted game assets retain their original ownership and licensing and are
 excluded from the MIT license grant. External dependencies retain their own
 licenses. See [THIRD_PARTY.md](THIRD_PARTY.md).
+
+## Slop Warning
+
+This entire project was mostly AI generated with codex/gpt-6.1-sol
+I expect this repo will only be useful to other clankers
