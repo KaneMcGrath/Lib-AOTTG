@@ -1,0 +1,93 @@
+{
+  "schema": "libaottg.audio-extraction",
+  "version": 1,
+  "sourceFile": "resources.assets",
+  "sourceSha256": "3a1aa8ca311bcedde26c0c167bc1d8005c3904c96d25a10787b05dfe33607508",
+  "unityVersion": "4.6.0f3",
+  "heroPathId": 3685,
+  "audioSourcePathId": 3133,
+  "audioClipPathId": 432,
+  "clipName": "ropes_clip(1) 1",
+  "originalStreamName": "ropes_clip(1) 1.ogg",
+  "audioSourceSettings": {
+    "m_GameObject": {
+      "m_FileID": 0,
+      "m_PathID": 1012
+    },
+    "m_Enabled": 1,
+    "m_audioClip": {
+      "m_FileID": 0,
+      "m_PathID": 432
+    },
+    "m_PlayOnAwake": false,
+    "m_Volume": 1.0,
+    "m_Pitch": 1.0,
+    "Loop": false,
+    "Mute": false,
+    "Priority": 128,
+    "DopplerLevel": 1.0,
+    "MinDistance": 1.0,
+    "MaxDistance": 500.0,
+    "Pan2D": 0.0,
+    "rolloffMode": 0,
+    "BypassEffects": false,
+    "BypassListenerEffects": false,
+    "BypassReverbZones": false,
+    "rolloffCustomCurve": {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0
+        },
+        {
+          "time": 1.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2
+    },
+    "panLevelCustomCurve": {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 1.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2
+    },
+    "spreadCustomCurve": {
+      "m_Curve": [
+        {
+          "time": 0.0,
+          "value": 0.0,
+          "inSlope": 0.0,
+          "outSlope": 0.0
+        }
+      ],
+      "m_PreInfinity": 2,
+      "m_PostInfinity": 2
+    }
+  },
+  "sampleRate": 44100,
+  "channels": 2,
+  "frames": 86400,
+  "durationSeconds": 1.9591836734693877,
+  "wavEncoding": "PCM signed 16-bit little-endian",
+  "peak": 0.831146240234375,
+  "files": {
+    "hook-launch.ogg": "49b5e7a785e20206ef32520af4375e89fa6f2ed87c8922ce6f208e16e9f145de",
+    "hook-launch.wav": "869a9c3fc52a001feb2bc0578664fe69c6ce05df4583062f282570142cc82262"
+  },
+  "tools": {
+    "UnityPy": "1.25.4",
+    "soundfile": "0.14.0"
+  }
+}

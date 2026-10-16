@@ -1,0 +1,209 @@
+{
+  "engine": "Unity 4.6.0f3",
+  "dt": 0.02,
+  "mass": 0.5,
+  "scenarios": [
+    {
+      "name": "ground",
+      "velocity": [
+        0,
+        -2.4,
+        -5
+      ],
+      "displacement": [
+        0,
+        -0.0479736328,
+        -0.099999994
+      ]
+    },
+    {
+      "name": "jump",
+      "velocity": [
+        0,
+        7.6,
+        10
+      ],
+      "displacement": [
+        0,
+        0.151977539,
+        0.199999988
+      ]
+    },
+    {
+      "name": "dash",
+      "velocity": [
+        0,
+        -0.399999976,
+        50
+      ],
+      "displacement": [
+        0,
+        -0.00799560547,
+        1
+      ]
+    },
+    {
+      "name": "pull",
+      "velocity": [
+        0,
+        -0.399999976,
+        8.8
+      ],
+      "displacement": [
+        0,
+        -0.00799560547,
+        0.176
+      ]
+    },
+    {
+      "name": "launch",
+      "velocity": [
+        0,
+        4.79999971,
+        10.5656853
+      ],
+      "displacement": [
+        0,
+        0.0960083,
+        0.2113137
+      ]
+    },
+    {
+      "name": "walljump",
+      "velocity": [
+        0,
+        9.6,
+        -15
+      ],
+      "displacement": [
+        0,
+        0.1920166,
+        -0.299999982
+      ]
+    },
+    {
+      "name": "roof",
+      "velocity": [
+        0,
+        0,
+        0
+      ],
+      "displacement": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "spin_in",
+      "velocity": [
+        -3.06065536,
+        -0.399999976,
+        -9.62509251
+      ],
+      "displacement": [
+        -0.0612131059,
+        -0.00799560547,
+        -0.192501843
+      ]
+    },
+    {
+      "name": "spin_out",
+      "velocity": [
+        -3.65899,
+        -0.399999976,
+        9.413916
+      ],
+      "displacement": [
+        -0.0731798,
+        -0.00799560547,
+        0.1882783
+      ]
+    },
+    {
+      "name": "spin_mixed",
+      "velocity": [
+        -3.65899,
+        -0.399999976,
+        17.4139156
+      ],
+      "displacement": [
+        -0.0731798,
+        -0.00799560547,
+        0.3482783
+      ]
+    },
+    {
+      "name": "set_after_force",
+      "velocity": [
+        0,
+        -0.399999976,
+        8
+      ],
+      "displacement": [
+        0,
+        -0.00799560547,
+        0.16
+      ]
+    },
+    {
+      "name": "set_after_impulse",
+      "velocity": [
+        0,
+        -0.399999976,
+        0
+      ],
+      "displacement": [
+        0,
+        -0.00799560547,
+        0
+      ]
+    },
+    {
+      "name": "set_after_velocitychange",
+      "velocity": [
+        0,
+        -0.399999976,
+        0
+      ],
+      "displacement": [
+        0,
+        -0.00799560547,
+        0
+      ]
+    },
+    {
+      "name": "spin_diagonal",
+      "velocity": [
+        13.0349941,
+        -0.399999976,
+        5.738237
+      ],
+      "displacement": [
+        0.260699868,
+        -0.00799560547,
+        0.114764735
+      ]
+    },
+    {
+      "name": "spin_vertical",
+      "velocity": [
+        0,
+        9.013916,
+        -3.65899
+      ],
+      "displacement": [
+        0,
+        0.180297852,
+        -0.0731798
+      ]
+    }
+  ],
+  "reference": {
+    "sourceCommit": "5c4b57bd667219289ecac80d6128651393ecc876",
+    "heroSha256": "2343dbb8921451596fd2c7b423adcebbf7510c82edb9d8f1716c4274f9515d3b",
+    "assemblySha256": "d79ac40b03b60ca68c414df680804ed767e3cfd697315559aeec7e81299550c3",
+    "run": "artifacts/aottg-dev/20261010-005527-100-0658c2f7",
+    "scope": "Isolated source force expressions on real Unity Rigidbody; not a live HERO trajectory."
+  }
+}

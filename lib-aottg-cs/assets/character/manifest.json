@@ -1,0 +1,94 @@
+{
+  "schema": "libaottg.character-package",
+  "version": 1,
+  "complete": true,
+  "converterRevision": 1,
+  "asset": "character.glb",
+  "sha256": "09e167f744d72fe4d35ad1b95cd19382848a78a81746ba3af313fc45a35f5b90",
+  "sourceCapture": "20261009-044946-b8dbc43a",
+  "sourceManifestSha256": "43da31348862e8564e2ebbf480547ee29bd25a6437bd55e47454aa3351ac022b",
+  "source": {
+    "revision": "",
+    "unityVersion": "4.6.0f3",
+    "modVersion": "Custom Games Mod 3.0.0(Dev)",
+    "scene": "The City I",
+    "heroName": "AOTTG_HERO 1(Clone)",
+    "fixedDeltaTime": 0.0199999995529652,
+    "timeScale": 1,
+    "physicsGravity": [
+      0,
+      -9.8100004196167,
+      0
+    ],
+    "colorSpace": "Gamma",
+    "assemblySha256": "1afc98a1b5606bba6279450cb7026190f21ba21fb16c3f9411610f9029866d76",
+    "rigidbody": {
+      "mass": 0.464999973773956,
+      "drag": 0,
+      "angularDrag": 0.0500000007450581,
+      "useGravity": false,
+      "isKinematic": false,
+      "constraints": "FreezeRotation",
+      "interpolation": "Interpolate",
+      "collisionDetectionMode": "Continuous"
+    }
+  },
+  "coordinates": "right-handed, Y-up, source forward maps to -Z",
+  "metersPerSourceUnit": 1,
+  "scaleCalibrated": false,
+  "meshCount": 22,
+  "clipCount": 68,
+  "textureCount": 7,
+  "omittedMeshes": [
+    {
+      "sourceNode": 18,
+      "name": "Cube",
+      "reason": "renderer disabled or node inactive"
+    },
+    {
+      "sourceNode": 34,
+      "name": "Cube",
+      "reason": "renderer disabled or node inactive"
+    }
+  ],
+  "validation": "not run by converter; see validation-report.json when available",
+  "warnings": [
+    "Meter scale is an explicit conversion setting, not a calibrated RCMod measurement.",
+    "Rest skeleton is reconstructed from bind matrices, preserving the highest reference joint\u0027s captured global frame/scale; it is not certified by an authored bind scene.",
+    "Animation tracks are baked solo poses. Authored channel masks, additive/layer blending, events, procedural posing and non-transform curves are unavailable.",
+    "Captured playback speeds are observations, not verified gameplay rules.",
+    "Materials approximate legacy shaders with glTF metallic-roughness; source properties are retained in extras.",
+    "Shader \u0027Transparent/Specular\u0027 in \u0027MaterialGLASS(Clone) (Instance)\u0027 approximated; specular/additive blending is not reproduced.",
+    "Shader \u0027Transparent/Specular\u0027 in \u0027MaterialGLASS(Clone) (Instance)\u0027 approximated; specular/additive blending is not reproduced.",
+    "Shader \u0027Particles/Additive\u0027 in \u0027Sparkles1\u0027 approximated; specular/additive blending is not reproduced."
+  ],
+  "sourceWarnings": [
+    "Initial node transforms are the captured pose, not a certified bind pose.",
+    "Only transforms are sampled; procedural posing and non-transform animation curves are not exported.",
+    "Authored animation events cannot be enumerated by this legacy Unity assembly; recover them offline and audit code-driven action windows.",
+    "Capture the source revision, local diff, hero stats, and mod settings separately for parity verification.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_chest\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_leg\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_body_uniform_FB\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_brand_arm_l\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_brand_arm_r\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_brand_chest_f\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_brand_back_f\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_arm_uniform_l\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_hand_l\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_arm_uniform_r\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_hand_r\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_3dmg_belt\u0027; skin indices remapped.",
+    "Removed 8 unused unresolved bone slots from mesh \u0027character_cape\u0027; skin indices remapped.",
+    "Source revision was not supplied in QuickMenu."
+  ],
+  "files": [
+    "character.glb",
+    "manifest.json",
+    "animation-rules.json",
+    "sockets.json",
+    "physics.json",
+    "bind-pose.json",
+    "profiles/rcmod-human-blades.json"
+  ]
+}

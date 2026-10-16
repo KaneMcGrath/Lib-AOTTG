@@ -1,0 +1,40 @@
+{
+  "schema": "libaottg.profile",
+  "version": 1,
+  "id": "rcmod-human-blades",
+  "status": "asset-capture-only; behavior-unverified",
+  "behaviorVerified": false,
+  "source": {
+    "revision": "",
+    "unityVersion": "4.6.0f3",
+    "modVersion": "Custom Games Mod 3.0.0(Dev)",
+    "scene": "The City I",
+    "heroName": "AOTTG_HERO 1(Clone)",
+    "fixedDeltaTime": 0.0199999995529652,
+    "timeScale": 1,
+    "physicsGravity": [
+      0,
+      -9.8100004196167,
+      0
+    ],
+    "colorSpace": "Gamma",
+    "assemblySha256": "1afc98a1b5606bba6279450cb7026190f21ba21fb16c3f9411610f9029866d76",
+    "rigidbody": {
+      "mass": 0.464999973773956,
+      "drag": 0,
+      "angularDrag": 0.0500000007450581,
+      "useGravity": false,
+      "isKinematic": false,
+      "constraints": "FreezeRotation",
+      "interpolation": "Interpolate",
+      "collisionDetectionMode": "Continuous"
+    }
+  },
+  "missing": [
+    "hero stats",
+    "source revision/local diff",
+    "mod settings",
+    "animation action windows",
+    "reference motion/camera traces"
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "libaottg.sockets",
+  "version": 1,
+  "coordinates": "glTF right-handed, Y-up, meters",
+  "sockets": [
+    {
+      "name": "hand_L",
+      "node": 17,
+      "parent": 16,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/shoulder_L[14]/upper_arm_L[15]/forearm_L[16]/hand_L[17]"
+    },
+    {
+      "name": "hookRef",
+      "node": 19,
+      "parent": 17,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/shoulder_L[14]/upper_arm_L[15]/forearm_L[16]/hand_L[17]/hookRef[19]"
+    },
+    {
+      "name": "bladeStart",
+      "node": 25,
+      "parent": 21,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/shoulder_L[14]/upper_arm_L[15]/forearm_L[16]/hand_L[17]/character_blade_l(Clone)[21]/bladeStart[25]"
+    },
+    {
+      "name": "bladeEnd",
+      "node": 26,
+      "parent": 21,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/shoulder_L[14]/upper_arm_L[15]/forearm_L[16]/hand_L[17]/character_blade_l(Clone)[21]/bladeEnd[26]"
+    },
+    {
+      "name": "hand_R",
+      "node": 33,
+      "parent": 32,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/shoulder_R[30]/upper_arm_R[31]/forearm_R[32]/hand_R[33]"
+    },
+    {
+      "name": "hookRef",
+      "node": 35,
+      "parent": 33,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/shoulder_R[30]/upper_arm_R[31]/forearm_R[32]/hand_R[33]/hookRef[35]"
+    },
+    {
+      "name": "bladeEnd",
+      "node": 38,
+      "parent": 37,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/shoulder_R[30]/upper_arm_R[31]/forearm_R[32]/hand_R[33]/character_blade_r(Clone)[37]/bladeEnd[38]"
+    },
+    {
+      "name": "bladeStart",
+      "node": 39,
+      "parent": 37,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/shoulder_R[30]/upper_arm_R[31]/forearm_R[32]/hand_R[33]/character_blade_r(Clone)[37]/bladeStart[39]"
+    },
+    {
+      "name": "hookRefR1",
+      "node": 46,
+      "parent": 6,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/hookRefR1[46]"
+    },
+    {
+      "name": "hookRefL1",
+      "node": 47,
+      "parent": 6,
+      "path": "AOTTG_HERO 1(Clone)[0]/Amarture[2]/Controller_Body[3]/hip[4]/spine[5]/chest[6]/hookRefL1[47]"
+    }
+  ]
+}

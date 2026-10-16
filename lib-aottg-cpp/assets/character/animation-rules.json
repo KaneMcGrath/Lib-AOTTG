@@ -1,0 +1,3369 @@
+{
+  "schema": "libaottg.animation-rules",
+  "version": 1,
+  "fidelity": "baked-solo-poses; authored masks unknown",
+  "rootMotion": "preserved in visual tracks; controller must not apply it again",
+  "clips": [
+    {
+      "name": "wallrun",
+      "animation": 0,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "toRoof",
+      "animation": 1,
+      "duration": 0.68333334,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 42,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "supply",
+      "animation": 2,
+      "duration": 2.0000002,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 122,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "stand_levi",
+      "animation": 3,
+      "duration": 1.0166667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "stand",
+      "animation": 4,
+      "duration": 1.0166667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 4,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 5,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 16,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 17,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 32,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 33,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "special_sasha",
+      "animation": 5,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "special_petra",
+      "animation": 6,
+      "duration": 0.85,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 52,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "special_marco_1",
+      "animation": 7,
+      "duration": 1.3333334,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 81,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "special_marco_0",
+      "animation": 8,
+      "duration": 1.3166667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 80,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "special_armin",
+      "animation": 9,
+      "duration": 2.8500001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 173,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "slide",
+      "animation": 10,
+      "duration": 0.51666665,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 32,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "salute",
+      "animation": 11,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "run_sasha",
+      "animation": 12,
+      "duration": 0.26666668,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 17,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "run_levi",
+      "animation": 13,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "run",
+      "animation": 14,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "onWall",
+      "animation": 15,
+      "duration": 0.33333337,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 22,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "jump",
+      "animation": 16,
+      "duration": 0.51666665,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 32,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "horse_run",
+      "animation": 17,
+      "duration": 0.41666672,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 27,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "horse_idle",
+      "animation": 18,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "horse_geton",
+      "animation": 19,
+      "duration": 0.6166667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 38,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "horse_getoff",
+      "animation": 20,
+      "duration": 0.45000005,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 29,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "grabbed_jean",
+      "animation": 21,
+      "duration": 1.1,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 67,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "grabbed",
+      "animation": 22,
+      "duration": 0.35000002,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 23,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 16,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 32,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "dodge",
+      "animation": 23,
+      "duration": 1.1,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 67,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "dash_land",
+      "animation": 24,
+      "duration": 0.8333334,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 52,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "dash",
+      "animation": 25,
+      "duration": 0.6666667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 41,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 16,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 32,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "changeBlade_air",
+      "animation": 26,
+      "duration": 0.51666665,
+      "capturedPlaybackSpeed": 0.8,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 32,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "changeBlade",
+      "animation": 27,
+      "duration": 1.7500001,
+      "capturedPlaybackSpeed": 1.2,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 107,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack5",
+      "animation": 28,
+      "duration": 1.5000001,
+      "capturedPlaybackSpeed": 1.85,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 92,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack4",
+      "animation": 29,
+      "duration": 0.43333337,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 28,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack3_2",
+      "animation": 30,
+      "duration": 0.48333338,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack3_1",
+      "animation": 31,
+      "duration": 0.4166667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 27,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack2",
+      "animation": 32,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack1_hook_r2",
+      "animation": 33,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack1_hook_r1",
+      "animation": 34,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack1_hook_l2",
+      "animation": 35,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack1_hook_l1",
+      "animation": 36,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "attack1",
+      "animation": 37,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air_rise",
+      "animation": 38,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air_release",
+      "animation": 39,
+      "duration": 0.5,
+      "capturedPlaybackSpeed": 0.6,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 31,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air_hook_r_just",
+      "animation": 40,
+      "duration": 0.6666667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 41,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air_hook_r",
+      "animation": 41,
+      "duration": 0.6666667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 41,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air_hook_l_just",
+      "animation": 42,
+      "duration": 0.6666667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 41,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air_hook_l",
+      "animation": 43,
+      "duration": 0.6666667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 41,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air_hook",
+      "animation": 44,
+      "duration": 0.6666667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 41,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air_fall",
+      "animation": 45,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air_circle",
+      "animation": 46,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air2_right",
+      "animation": 47,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air2_left",
+      "animation": 48,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air2_backward",
+      "animation": 49,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "air2",
+      "animation": 50,
+      "duration": 0.33333337,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 22,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "T-pose",
+      "animation": 51,
+      "duration": 1,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 61,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 2,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 4,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 5,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 6,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 8,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 9,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 14,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 15,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 16,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 17,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 30,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 31,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 32,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 33,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 54,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 55,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 56,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 59,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 60,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 61,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_stand_gun",
+      "animation": 52,
+      "duration": 1.0000001,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 62,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 4,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_shoot_r_air",
+      "animation": 53,
+      "duration": 0.68333334,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 42,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_shoot_r",
+      "animation": 54,
+      "duration": 0.68333334,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 42,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_shoot_l_air",
+      "animation": 55,
+      "duration": 0.68333334,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 42,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_shoot_l",
+      "animation": 56,
+      "duration": 0.68333334,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 42,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_shoot_both_air",
+      "animation": 57,
+      "duration": 0.8333334,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 52,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_shoot_both",
+      "animation": 58,
+      "duration": 0.8333334,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 52,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_hook_forward_r",
+      "animation": 59,
+      "duration": 0.6666667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 41,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_hook_forward_l",
+      "animation": 60,
+      "duration": 0.6666667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 41,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_hook_forward_both",
+      "animation": 61,
+      "duration": 0.6666667,
+      "capturedPlaybackSpeed": 1,
+      "stateWrapMode": "Loop",
+      "clipWrapMode": "Loop",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 41,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_gun_reload_r_air",
+      "animation": 62,
+      "duration": 0.7666667,
+      "capturedPlaybackSpeed": 0.5,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 48,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 4,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_gun_reload_r",
+      "animation": 63,
+      "duration": 0.7666667,
+      "capturedPlaybackSpeed": 0.4,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 48,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 4,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_gun_reload_l_air",
+      "animation": 64,
+      "duration": 0.7666667,
+      "capturedPlaybackSpeed": 0.5,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 48,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 4,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_gun_reload_l",
+      "animation": 65,
+      "duration": 0.7666667,
+      "capturedPlaybackSpeed": 0.4,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 48,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 4,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_gun_reload_both_air",
+      "animation": 66,
+      "duration": 0.7666667,
+      "capturedPlaybackSpeed": 0.5,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 48,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 4,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    },
+    {
+      "name": "AHSS_gun_reload_both",
+      "animation": 67,
+      "duration": 0.7666667,
+      "capturedPlaybackSpeed": 0.38,
+      "stateWrapMode": "ClampForever",
+      "clipWrapMode": "ClampForever",
+      "layer": 0,
+      "blendMode": "Blend",
+      "authoredEventsAvailable": false,
+      "events": [],
+      "sampleCount": 48,
+      "sampleRate": 60,
+      "inferredChannelMask": true,
+      "ambiguousDefaultChannels": [
+        {
+          "node": 4,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 18,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 34,
+          "path": "scale",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 57,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        },
+        {
+          "node": 62,
+          "path": "rotation",
+          "reason": "captured default required to restore solo pose from reconstructed rest"
+        }
+      ]
+    }
+  ]
+}

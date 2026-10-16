@@ -1,0 +1,81 @@
+{
+  "schema": "libaottg.physics",
+  "version": 1,
+  "coordinates": "glTF right-handed, Y-up, meters; collider dimensions are node-local",
+  "gravity": [
+    0,
+    -9.81,
+    -0
+  ],
+  "rigidbody": {
+    "mass": 0.464999973773956,
+    "drag": 0,
+    "angularDrag": 0.0500000007450581,
+    "useGravity": false,
+    "isKinematic": false,
+    "constraints": "FreezeRotation",
+    "interpolation": "Interpolate",
+    "collisionDetectionMode": "Continuous"
+  },
+  "colliders": [
+    {
+      "node": 0,
+      "type": "CapsuleCollider",
+      "enabled": true,
+      "isTrigger": false,
+      "center": [
+        0,
+        0.85,
+        -0
+      ],
+      "radius": 0.5,
+      "height": 1.7,
+      "direction": 1
+    },
+    {
+      "node": 3,
+      "type": "SphereCollider",
+      "enabled": true,
+      "isTrigger": true,
+      "center": [
+        0,
+        0,
+        -0.004
+      ],
+      "radius": 0.008
+    },
+    {
+      "node": 18,
+      "type": "BoxCollider",
+      "enabled": true,
+      "isTrigger": true,
+      "center": [
+        0,
+        0,
+        -0
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "node": 34,
+      "type": "BoxCollider",
+      "enabled": true,
+      "isTrigger": true,
+      "center": [
+        0,
+        0,
+        -0
+      ],
+      "size": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "note": "Apply node world scale to shapes. Layer rules, trigger windows and controller mechanics are not encoded."
+}

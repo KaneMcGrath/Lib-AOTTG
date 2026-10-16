@@ -1,0 +1,530 @@
+{
+  "schema": "libaottg.character-audio-extraction",
+  "version": 1,
+  "sourceFile": "resources.assets",
+  "sourceSha256": "3a1aa8ca311bcedde26c0c167bc1d8005c3904c96d25a10787b05dfe33607508",
+  "unityVersion": "4.6.0f3",
+  "clips": [
+    {
+      "cue": "hook-launch",
+      "reference": "rope",
+      "heroPathId": 3685,
+      "audioSourcePathId": 3133,
+      "audioClipPathId": 432,
+      "clipName": "ropes_clip(1) 1",
+      "originalStreamName": "ropes_clip(1) 1.ogg",
+      "audioSourceSettings": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 1012
+        },
+        "m_Enabled": 1,
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": 432
+        },
+        "m_PlayOnAwake": false,
+        "m_Volume": 1.0,
+        "m_Pitch": 1.0,
+        "Loop": false,
+        "Mute": false,
+        "Priority": 128,
+        "DopplerLevel": 1.0,
+        "MinDistance": 1.0,
+        "MaxDistance": 500.0,
+        "Pan2D": 0.0,
+        "rolloffMode": 0,
+        "BypassEffects": false,
+        "BypassListenerEffects": false,
+        "BypassReverbZones": false,
+        "rolloffCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "panLevelCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "spreadCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        }
+      },
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 86400,
+      "durationSeconds": 1.9591836734693877,
+      "files": {
+        "hook-launch.ogg": "49b5e7a785e20206ef32520af4375e89fa6f2ed87c8922ce6f208e16e9f145de",
+        "hook-launch.wav": "869a9c3fc52a001feb2bc0578664fe69c6ce05df4583062f282570142cc82262"
+      }
+    },
+    {
+      "cue": "blade-swing",
+      "reference": "slash",
+      "heroPathId": 3685,
+      "audioSourcePathId": 3130,
+      "audioClipPathId": 433,
+      "clipName": "Fx12704_f_knSWP1",
+      "originalStreamName": "Fx12704_f_knSWP1.ogg",
+      "audioSourceSettings": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 989
+        },
+        "m_Enabled": 1,
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": 433
+        },
+        "m_PlayOnAwake": false,
+        "m_Volume": 1.0,
+        "m_Pitch": 1.0,
+        "Loop": false,
+        "Mute": false,
+        "Priority": 128,
+        "DopplerLevel": 1.0,
+        "MinDistance": 1.0,
+        "MaxDistance": 500.0,
+        "Pan2D": 0.0,
+        "rolloffMode": 0,
+        "BypassEffects": false,
+        "BypassListenerEffects": false,
+        "BypassReverbZones": false,
+        "rolloffCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "panLevelCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "spreadCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        }
+      },
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 12672,
+      "durationSeconds": 0.2873469387755102,
+      "files": {
+        "blade-swing.ogg": "113dc9b8c14040e2df4c65dfcbcde730bd22174cadc47faac995db35245be4c0",
+        "blade-swing.wav": "9c4d278862bbba1051c480a7dadb3fe0e9d26c65bb59ce381696c89dc59ede5c"
+      }
+    },
+    {
+      "cue": "blade-hit",
+      "reference": "slashHit",
+      "heroPathId": 3685,
+      "audioSourcePathId": 3116,
+      "audioClipPathId": 430,
+      "clipName": "Fx12725_snikt",
+      "originalStreamName": "Fx12725_snikt.ogg",
+      "audioSourceSettings": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 905
+        },
+        "m_Enabled": 1,
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": 430
+        },
+        "m_PlayOnAwake": false,
+        "m_Volume": 1.0,
+        "m_Pitch": 1.0,
+        "Loop": false,
+        "Mute": false,
+        "Priority": 128,
+        "DopplerLevel": 1.0,
+        "MinDistance": 1.0,
+        "MaxDistance": 500.0,
+        "Pan2D": 0.0,
+        "rolloffMode": 0,
+        "BypassEffects": false,
+        "BypassListenerEffects": false,
+        "BypassReverbZones": false,
+        "rolloffCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "panLevelCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "spreadCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        }
+      },
+      "sampleRate": 22050,
+      "channels": 1,
+      "frames": 17856,
+      "durationSeconds": 0.809795918367347,
+      "files": {
+        "blade-hit.ogg": "b8159b8587af05d118fcbab7809c684cbb9e778ed8a7a094125c7fb401203027",
+        "blade-hit.wav": "90c4f33bf1527e97191e97c423af3711d48baeae33f6868a11a66b7b131aa86a"
+      }
+    },
+    {
+      "cue": "death",
+      "reference": "meatDie",
+      "heroPathId": 3685,
+      "audioSourcePathId": 3095,
+      "audioClipPathId": 431,
+      "clipName": "sb",
+      "originalStreamName": "sb.ogg",
+      "audioSourceSettings": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 892
+        },
+        "m_Enabled": 1,
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": 431
+        },
+        "m_PlayOnAwake": false,
+        "m_Volume": 1.0,
+        "m_Pitch": 1.0,
+        "Loop": false,
+        "Mute": false,
+        "Priority": 128,
+        "DopplerLevel": 1.0,
+        "MinDistance": 1.0,
+        "MaxDistance": 500.0,
+        "Pan2D": 0.0,
+        "rolloffMode": 0,
+        "BypassEffects": false,
+        "BypassListenerEffects": false,
+        "BypassReverbZones": false,
+        "rolloffCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "panLevelCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "spreadCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        }
+      },
+      "sampleRate": 44100,
+      "channels": 2,
+      "frames": 179712,
+      "durationSeconds": 4.0751020408163265,
+      "files": {
+        "death.ogg": "24fa70dc1c0ec1c875d773054d26f0b92f1bece210bfd2200cb45378a2cf88f4",
+        "death.wav": "23ea0aaecf820192f048361418890b8eaed7e1aeb87799dcdac41bf85f3c94da"
+      }
+    },
+    {
+      "cue": "ahss-fire",
+      "reference": "shotGun",
+      "heroPathId": 3685,
+      "audioSourcePathId": 3108,
+      "audioClipPathId": 434,
+      "clipName": "02zd008",
+      "originalStreamName": "02zd008.ogg",
+      "audioSourceSettings": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 722
+        },
+        "m_Enabled": 1,
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": 434
+        },
+        "m_PlayOnAwake": true,
+        "m_Volume": 1.0,
+        "m_Pitch": 1.0,
+        "Loop": false,
+        "Mute": false,
+        "Priority": 128,
+        "DopplerLevel": 1.0,
+        "MinDistance": 1.0,
+        "MaxDistance": 500.0,
+        "Pan2D": 0.0,
+        "rolloffMode": 2,
+        "BypassEffects": false,
+        "BypassListenerEffects": false,
+        "BypassReverbZones": false,
+        "rolloffCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.01726594939827919,
+              "outSlope": 0.01726594939827919
+            },
+            {
+              "time": 0.2641739547252655,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 0.0020000000949949026,
+              "inSlope": -0.0020007984712719917,
+              "outSlope": -0.0020007984712719917
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "panLevelCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "spreadCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.021739128977060318,
+              "value": 0.618208110332489,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        }
+      },
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 46080,
+      "durationSeconds": 1.0448979591836736,
+      "files": {
+        "ahss-fire.ogg": "c725a896463758eab12b6f86ff8e4e3ea9a7c6135ed2234fa5eb8f3314e2bcc8",
+        "ahss-fire.wav": "42de147c7d92badfa273cf81329740d9ee2881096bd921179b30facef7ee13f9"
+      }
+    },
+    {
+      "cue": "ahss-fire",
+      "reference": "shotGun 1",
+      "heroPathId": 3685,
+      "audioSourcePathId": 3107,
+      "audioClipPathId": 434,
+      "clipName": "02zd008",
+      "originalStreamName": "02zd008.ogg",
+      "audioSourceSettings": {
+        "m_GameObject": {
+          "m_FileID": 0,
+          "m_PathID": 660
+        },
+        "m_Enabled": 1,
+        "m_audioClip": {
+          "m_FileID": 0,
+          "m_PathID": 434
+        },
+        "m_PlayOnAwake": true,
+        "m_Volume": 1.0,
+        "m_Pitch": 1.0,
+        "Loop": false,
+        "Mute": false,
+        "Priority": 128,
+        "DopplerLevel": 1.0,
+        "MinDistance": 1.0,
+        "MaxDistance": 500.0,
+        "Pan2D": 0.0,
+        "rolloffMode": 2,
+        "BypassEffects": false,
+        "BypassListenerEffects": false,
+        "BypassReverbZones": false,
+        "rolloffCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.01726594939827919,
+              "outSlope": 0.01726594939827919
+            },
+            {
+              "time": 0.2641739547252655,
+              "value": 0.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            },
+            {
+              "time": 1.0,
+              "value": 0.0020000000949949026,
+              "inSlope": -0.0020007984712719917,
+              "outSlope": -0.0020007984712719917
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "panLevelCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.0,
+              "value": 1.0,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        },
+        "spreadCustomCurve": {
+          "m_Curve": [
+            {
+              "time": 0.021739128977060318,
+              "value": 0.618208110332489,
+              "inSlope": 0.0,
+              "outSlope": 0.0
+            }
+          ],
+          "m_PreInfinity": 2,
+          "m_PostInfinity": 2
+        }
+      },
+      "sampleRate": 44100,
+      "channels": 1,
+      "frames": 46080,
+      "durationSeconds": 1.0448979591836736,
+      "files": {
+        "ahss-fire.ogg": "c725a896463758eab12b6f86ff8e4e3ea9a7c6135ed2234fa5eb8f3314e2bcc8",
+        "ahss-fire.wav": "42de147c7d92badfa273cf81329740d9ee2881096bd921179b30facef7ee13f9"
+      }
+    }
+  ],
+  "wavEncoding": "PCM signed 16-bit little-endian",
+  "tools": {
+    "UnityPy": "1.25.4",
+    "soundfile": "0.14.0"
+  }
+}

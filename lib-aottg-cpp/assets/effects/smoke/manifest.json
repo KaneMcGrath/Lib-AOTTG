@@ -1,0 +1,84 @@
+{
+  "schema": "libaottg.smoke",
+  "version": 1,
+  "texture": "smoke.png",
+  "textureSha256": "4172e964a0e16ffb6135c77edd7a875510d37cbec2a83c858cc28c1742aaa45b",
+  "settings": {
+    "rate": 60.0,
+    "lifetime": [
+      3.0,
+      4.0
+    ],
+    "speed": [
+      0.9999999848780803,
+      1.350000023841858
+    ],
+    "size": [
+      1.0,
+      2.0
+    ],
+    "rotation": [
+      -3.141592502593994,
+      3.141592502593994
+    ],
+    "localPosition": [
+      0.1128539964556694,
+      0.5851399898529053,
+      -0.34307900071144104
+    ],
+    "localRotation": [
+      -0.7071068286895752,
+      0.0,
+      0.0,
+      0.7071068286895752
+    ],
+    "radius": 0.3100000023841858,
+    "coneAngle": 21.440000534057617,
+    "color": [
+      0.9870061411577112,
+      0.9870061411577112,
+      0.9870061411577112,
+      0.5490196078431373
+    ],
+    "sizeCurve": [
+      {
+        "time": 0.0,
+        "value": 0.41176465153694153,
+        "inSlope": 11.783681869506836,
+        "outSlope": 11.783681869506836
+      },
+      {
+        "time": 0.12427343428134918,
+        "value": 1.0,
+        "inSlope": 0.0,
+        "outSlope": 0.0
+      },
+      {
+        "time": 1.0,
+        "value": 0.0,
+        "inSlope": 0.5305652022361755,
+        "outSlope": 0.5305652022361755
+      }
+    ],
+    "maxParticles": 10000,
+    "alphaFade": [
+      1,
+      0
+    ]
+  },
+  "source": {
+    "gameObject": 448,
+    "particleSystem": 3371,
+    "renderer": 3466,
+    "material": 8,
+    "materialName": "toon smoke",
+    "texture": 19,
+    "textureName": "cartoon_smoke_cloud 1",
+    "shader": "Particle Alpha Blend Scale",
+    "files": {
+      "resources.assets": "3a1aa8ca311bcedde26c0c167bc1d8005c3904c96d25a10787b05dfe33607508",
+      "sharedassets0.assets": "abe09886af138d648b61f561e8c9d857bc546b43d5b6e1316338e52cefba2aa5"
+    },
+    "UnityPy": "1.25.4"
+  }
+}
