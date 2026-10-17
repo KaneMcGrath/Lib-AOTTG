@@ -1,0 +1,10 @@
+!Sound
+Id: 55376b22-3bd2-4372-8823-4a316d9344a5
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../lib-aottg-cs/assets/audio/ahss-fire.wav
+Index: 0
+SampleRate: 44100
+CompressionRatio: 1
+StreamFromDisk: false
+Spatialized: false

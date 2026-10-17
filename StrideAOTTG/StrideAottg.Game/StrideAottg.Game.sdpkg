@@ -1,0 +1,28 @@
+!Package
+SerializedVersion: {Assets: 3.1.0.0}
+Meta:
+    Name: StrideAottg.Game
+    Version: 1.0.0
+    RootNamespace: StrideAottg
+    Authors: []
+    Owners: []
+    Dependencies: null
+AssetFolders:
+    - Path: !dir ../Assets
+ResourceFolders: []
+OutputGroupDirectories: {}
+ExplicitFolders: []
+Bundles: []
+TemplateFolders: []
+RootAssets:
+    - e6effb91-d75e-43e3-9b04-c64802fb0c07:OptionsFont
+    - 8187fc86-8564-469f-bf43-8f24782572b2:HookLaunch
+    - 08fd9375-521e-4c2e-8c81-21a400000003:Cube
+    - 08fd9375-521e-4c2e-8c81-21a400000004:FloorMaterial
+    - 08fd9375-521e-4c2e-8c81-21a400000005:PlayerMaterial
+    - 08fd9375-521e-4c2e-8c81-21a400000006:TargetMaterial
+    - 08fd9375-521e-4c2e-8c81-21a400000007:RopeMaterial
+    - 2f24906e-3e19-46a2-8e32-c1f63987caf0:BladeSwing
+    - c705812e-521e-4e1e-aac4-d33d6d8aac32:BladeHit
+    - 55376b22-3bd2-4372-8823-4a316d9344a5:AhssFire
+    - af64e0a4-8765-45cc-bbe1-14e4161dd850:Death

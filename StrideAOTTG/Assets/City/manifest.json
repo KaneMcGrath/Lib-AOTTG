@@ -1,0 +1,1756 @@
+{
+  "schema": "strideaottg.city",
+  "version": 1,
+  "name": "The City",
+  "scene": "The City I",
+  "serializedFile": "level0",
+  "units": "original AoTTG units; Unity world axes",
+  "materials": [
+    {
+      "name": "house",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "texture-0.png",
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "cutoff": 0.5,
+      "alphaTest": false,
+      "doubleSided": false,
+      "shader": ""
+    },
+    {
+      "name": "unnamed",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "texture-1.png",
+      "scale": [
+        400.0,
+        400.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "cutoff": 0.5,
+      "alphaTest": false,
+      "doubleSided": false,
+      "shader": "AlphaTest-Diffuse"
+    },
+    {
+      "name": "WALL",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "texture-1.png",
+      "scale": [
+        400.0,
+        400.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "cutoff": 0.5,
+      "alphaTest": false,
+      "doubleSided": false,
+      "shader": ""
+    },
+    {
+      "name": "Material",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "texture-2.png",
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "cutoff": 0.5,
+      "alphaTest": false,
+      "doubleSided": false,
+      "shader": ""
+    },
+    {
+      "name": "PureMetal",
+      "color": [
+        0.678413987159729,
+        0.6838235259056091,
+        0.6536548137664795,
+        1.0
+      ],
+      "texture": null,
+      "scale": [
+        1.0,
+        1.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "cutoff": 0.5,
+      "alphaTest": false,
+      "doubleSided": false,
+      "shader": "Normal-BumpSpec"
+    },
+    {
+      "name": "GROUND",
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "texture": "texture-3.png",
+      "scale": [
+        150.0,
+        150.0
+      ],
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "cutoff": 0.5,
+      "alphaTest": false,
+      "doubleSided": false,
+      "shader": ""
+    }
+  ],
+  "spawns": [
+    [
+      6.853588104248047,
+      0.0,
+      -558.9033813476562
+    ],
+    [
+      -3.3273143768310547,
+      0.0,
+      -549.65673828125
+    ],
+    [
+      -16.470645904541016,
+      0.0,
+      -555.7389526367188
+    ],
+    [
+      7.044855117797852,
+      0.0,
+      -537.9047241210938
+    ],
+    [
+      -13.848979949951172,
+      0.0,
+      -537.1749267578125
+    ]
+  ],
+  "boundsMin": [
+    -699.1908569335938,
+    -83.70562744140625,
+    -733.930419921875
+  ],
+  "boundsMax": [
+    744.3829956054688,
+    317.4248352050781,
+    760.0172119140625
+  ],
+  "renderGroups": 6,
+  "collisionTriangles": 3868,
+  "colliders": [
+    {
+      "name": "Cube_005",
+      "gameObject": 2,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 3,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 4,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 5,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 7,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 10,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 11,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 12,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 13,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 14,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 16,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 18,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 19,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 20,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "GameObject1",
+      "gameObject": 21,
+      "type": "BoxCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 22,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 24,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_015",
+      "gameObject": 25,
+      "type": "MeshCollider",
+      "triangles": 140
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 26,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 27,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 28,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 30,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 32,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 33,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 34,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 35,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 36,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 37,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 38,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 39,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 41,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 42,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 44,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 46,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 47,
+      "type": "MeshCollider",
+      "triangles": 22
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 48,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 49,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 50,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 52,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 53,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 54,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 55,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 57,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 59,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_003",
+      "gameObject": 61,
+      "type": "MeshCollider",
+      "triangles": 16
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 63,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 64,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 66,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 67,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 68,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_019",
+      "gameObject": 69,
+      "type": "MeshCollider",
+      "triangles": 28
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 70,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 71,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 73,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 76,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 78,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 79,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 80,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 85,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 86,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 92,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 93,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 95,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 97,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_000",
+      "gameObject": 98,
+      "type": "BoxCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 99,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 100,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 101,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 105,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 106,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 109,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 110,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_007",
+      "gameObject": 111,
+      "type": "MeshCollider",
+      "triangles": 20
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 112,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 114,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 116,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 117,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 118,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 119,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 121,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 123,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 124,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 125,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 126,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 129,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 130,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 131,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 132,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 133,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 134,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 135,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 138,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 141,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 145,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 147,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 150,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 151,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 153,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 154,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 155,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 156,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 157,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 160,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 161,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_000",
+      "gameObject": 163,
+      "type": "MeshCollider",
+      "triangles": 22
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 165,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 166,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 168,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 169,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 170,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 173,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 174,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 175,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 176,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 181,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 182,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 183,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 185,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 186,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 188,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 189,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 191,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 192,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 194,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 196,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 198,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 199,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 200,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 201,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 203,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 204,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 205,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 206,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 207,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_007",
+      "gameObject": 208,
+      "type": "MeshCollider",
+      "triangles": 20
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 212,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 213,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 215,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 216,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 217,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 219,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 220,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 222,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 225,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 226,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "GameObject1",
+      "gameObject": 227,
+      "type": "BoxCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_001",
+      "gameObject": 229,
+      "type": "BoxCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 231,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 233,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 235,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 236,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 237,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 238,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 240,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 242,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 246,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 248,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "GameObject1",
+      "gameObject": 249,
+      "type": "BoxCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 250,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 251,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "GameObject1",
+      "gameObject": 252,
+      "type": "BoxCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 254,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_003",
+      "gameObject": 256,
+      "type": "MeshCollider",
+      "triangles": 16
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 257,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 260,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 264,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 265,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 266,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 267,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 268,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 269,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 270,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 271,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 272,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 273,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 274,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 275,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 277,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 278,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 280,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 282,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 285,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 286,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 289,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "GameObject1",
+      "gameObject": 290,
+      "type": "BoxCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 291,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 292,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 293,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 294,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 295,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 296,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 297,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 300,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 302,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 303,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 304,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 305,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 307,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 309,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 310,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 311,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 312,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 314,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 317,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 319,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 320,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 322,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 323,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 324,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 327,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 328,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 330,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 332,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 333,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_003",
+      "gameObject": 334,
+      "type": "MeshCollider",
+      "triangles": 16
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 338,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 340,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 341,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 343,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 344,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 346,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 348,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 349,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 350,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 352,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 353,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 355,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 356,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 358,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 363,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 364,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 366,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 367,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 368,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 369,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 370,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 372,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 373,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 374,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_003",
+      "gameObject": 375,
+      "type": "MeshCollider",
+      "triangles": 16
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 376,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 377,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_020",
+      "gameObject": 380,
+      "type": "MeshCollider",
+      "triangles": 48
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 381,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 386,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 387,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_003",
+      "gameObject": 388,
+      "type": "MeshCollider",
+      "triangles": 16
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 390,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 391,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 392,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 394,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 395,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 396,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 399,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 400,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 402,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 404,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 405,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_005",
+      "gameObject": 407,
+      "type": "MeshCollider",
+      "triangles": 14
+    },
+    {
+      "name": "Cube_002",
+      "gameObject": 408,
+      "type": "MeshCollider",
+      "triangles": 12
+    },
+    {
+      "name": "Cube_006",
+      "gameObject": 409,
+      "type": "MeshCollider",
+      "triangles": 74
+    }
+  ],
+  "sourceFiles": {
+    "level0": "1d0f823c07d1449fd518a97961cc289cc0ea531abfff15180d8fac9286bedfc9",
+    "sharedassets0.assets": "abe09886af138d648b61f561e8c9d857bc546b43d5b6e1316338e52cefba2aa5",
+    "sharedassets1.assets": "76054ac24ebe419a2dc7c8154f2790b5090ee3cce4dc5b5e7a0f4eb3b16e2496",
+    "resources.assets": "3a1aa8ca311bcedde26c0c167bc1d8005c3904c96d25a10787b05dfe33607508"
+  },
+  "UnityPy": "1.25.4"
+}

@@ -18,6 +18,14 @@ behavior. They do not confer rights to the original game or its assets.
 
 ## External packages
 
+`StrideAOTTG/` is the optional Windows demo. Its original source is covered
+by this repository's MIT license. Stride 4.3.0.2507 is restored through NuGet
+under its upstream license. The extracted City geometry, collision data and
+textures in `StrideAOTTG/Assets/City/` retain their original game ownership
+and licensing and are excluded from the MIT grant, as are the shared game
+assets consumed from `lib-aottg-cs/assets/`. The bundled map is ready to use;
+no extraction tools or original game installation are required.
+
 The optional C# assets runtime references `SharpGLTF.Core` 1.0.7 through NuGet.
 Its upstream license and package notices continue to apply. Dependencies are
 restored by the build and are not vendored in this repository.

@@ -8,6 +8,7 @@ other games. Hosts supply input, collision, rendering and combat integration.
 | --- | --- |
 | [lib-aottg-cs](lib-aottg-cs/README.md) | C# controller targeting .NET Standard 2.0, with optional character assets runtime and Unity adapter |
 | [lib-aottg-cpp](lib-aottg-cpp/README.md) | C++20 port for native hosts, built with CMake |
+| [StrideAOTTG](StrideAOTTG/README.md) | Playable Windows x64 Stride demo using the C# library |
 
 Both implementations preserve the `LibAottg` API namespace. They build
 independently; neither requires the original game to build the controller.
@@ -32,6 +33,19 @@ cmake --build lib-aottg-cpp/build --config Release
 These are development libraries with bounded reference comparisons, not a claim
 of full gameplay or visual parity. See each implementation's documentation for
 host responsibilities and limitations.
+
+## Stride demo
+
+On Windows with the .NET 10 SDK, build and launch the playable demo:
+
+```powershell
+dotnet run --project StrideAOTTG/StrideAottg.Windows -c Release
+```
+
+It uses Stride 4.3.0.2507 and Direct3D 11, references `lib-aottg-cs` directly,
+and loads the bundled character, audio, UI and City packages. No original game
+installation or private workspace artifacts are needed. See the demo README
+for controls, the sandbox map, command-line options and optional checks.
 
 ## License
 

@@ -1,0 +1,7 @@
+Bin/
+**/bin/
+**/obj/
+.vs/
+*.suo
+*.user
+*.sdpkg.user

@@ -1,0 +1,10 @@
+!Sound
+Id: 2f24906e-3e19-46a2-8e32-c1f63987caf0
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../lib-aottg-cs/assets/audio/blade-swing.wav
+Index: 0
+SampleRate: 44100
+CompressionRatio: 1
+StreamFromDisk: false
+Spatialized: false

@@ -1,0 +1,10 @@
+!Sound
+Id: c705812e-521e-4e1e-aac4-d33d6d8aac32
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../lib-aottg-cs/assets/audio/blade-hit.wav
+Index: 0
+SampleRate: 44100
+CompressionRatio: 1
+StreamFromDisk: false
+Spatialized: false

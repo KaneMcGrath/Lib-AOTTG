@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../../lib-aottg-cs/src/LibAottg.Core/LibAottg.Core.csproj" />
+    <Compile Include="../../StrideAottg.Game/CityCollision.cs" Link="CityCollision.cs" />
+  </ItemGroup>
+</Project>

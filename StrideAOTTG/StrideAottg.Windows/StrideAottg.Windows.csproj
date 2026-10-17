@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StrideAottg</RootNamespace>
+    <OutputPath>../Bin/Windows/$(Configuration)/</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+    <DefineConstants>$(DefineConstants);STRIDE_PLATFORM_DESKTOP</DefineConstants>
+    <StrideProjectType>Executable</StrideProjectType>
+    <StridePlatform>Windows</StridePlatform>
+    <StrideGraphicsApi>Direct3D11</StrideGraphicsApi>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="../../lib-aottg-cs/assets/ui/aottg-damage-score/*.png;../../lib-aottg-cs/assets/ui/aottg-damage-score/manifest.json"
+             Link="DamageHudPackage/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../lib-aottg-cs/assets/ui/aottg-kill-info/*.png;../../lib-aottg-cs/assets/ui/aottg-kill-info/manifest.json"
+             Link="KillInfoPackage/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../Assets/City/*" Link="CityPackage/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <ProjectReference Include="../StrideAottg.Game/StrideAottg.Game.csproj" />
+    <PackageReference Include="Stride.Core.Assets.CompilerApp" Version="4.3.0.2507" IncludeAssets="build;buildTransitive" PrivateAssets="all" />
+    <Content Include="../../lib-aottg-cs/assets/ui/aottg-hero-hud/*.png;../../lib-aottg-cs/assets/ui/aottg-hero-hud/manifest.json"
+             Link="HeroHudPackage/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="../../lib-aottg-cs/assets/effects/smoke/*.png;../../lib-aottg-cs/assets/effects/smoke/manifest.json"
+             Link="SmokePackage/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="../../lib-aottg-cs/assets/character/*.glb;../../lib-aottg-cs/assets/character/*.json"
+             Link="CharacterPackage/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
